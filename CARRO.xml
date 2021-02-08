@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="rotje" on="02/07/21||23:04:47" using="Simscape Multibody Link Version 7.2" from="Autodesk Inventor 2021 (Build 250183000, 183)"/>
+<ModelUnits mass="lbmass" length="millimeter"/>
+<DataUnits mass="kilogram" length="centimeter"/>
+<RootAssembly name="CARRO.iam" uid="CARRO.iam_{4D9ABA1B-48D4-BE95-66A7-1EBAD937D17C}" version="{E1EF83F9-667E-80A2-A0E2-5DA43E3645B0}">
+<AssemblyFile name="CARRO.iam" type="Inventor Assembly"/>
+<InstanceTree>
+<Instance name="Base-soporte:1" uid="Base-soporte:1" entityUid="Base-soporte.iam_{63945171-485C-683A-A09F-CBB10D424013}" rigid="true">
+<Transform>
+<Rotation>-1 0 0 0 1 2.4633073358870754e-16 0 2.4633073358870754e-16 -1</Rotation>
+<Translation>0 2.6025201853678084 6.410807064410719e-16</Translation>
+</Transform>
+<Instance name="BaseCarro:1" uid="BaseCarro:1" entityUid="BaseCarro.ipt_{177264CC-431B-86EB-ED97-A2993D9CF640}">
+<Transform>
+<Rotation>1 3.0744637605013057e-15 0 0 -2.4633073358870754e-16 -1 -3.0744637605013065e-15 1 -2.4633073358870725e-16</Rotation>
+<Translation>-0.49881932006748525 -1.9750201853678089 1.4762008653002083</Translation>
+</Transform>
+</Instance>
+<Instance name="sopoetellantas:1" uid="sopoetellantas:1" entityUid="sopoetellantas.ipt_{FE50DCF4-4FA7-06A1-C772-0FA9E34D5D59}">
+<Transform>
+<Rotation>1.8219044506671127e-15 0 -0.99999999999999956 -2.4633073358870804e-16 0.99999999999999978 0 0.99999999999999978 1.0789980020575742e-15 1.8328815807183667e-15</Rotation>
+<Translation>-17.498819320067582 1.7519109795911607 -32.523799134699736</Translation>
+</Transform>
+</Instance>
+<Instance name="sopoetellantas:2" uid="sopoetellantas:2" entityUid="sopoetellantas.ipt_{FE50DCF4-4FA7-06A1-C772-0FA9E34D5D59}">
+<Transform>
+<Rotation>2.7883678272317163e-15 1.1102230246251318e-16 -0.99999999999999978 -2.4633073358870641e-16 1.0000000000000002 0 1 -6.4184768611141862e-16 2.6773455247692006e-15</Rotation>
+<Translation>17.501180679932418 1.7519109795911625 -32.523799134699843</Translation>
+</Transform>
+</Instance>
+<Instance name="sopoetellantas:3" uid="sopoetellantas:3" entityUid="sopoetellantas.ipt_{FE50DCF4-4FA7-06A1-C772-0FA9E34D5D59}">
+<Transform>
+<Rotation>2.6773455247691525e-15 0 -0.99999999999999989 -2.4633073358870789e-16 0.99999999999999956 0 1.0000000000000002 6.3490879220751169e-16 2.3605233722798389e-15</Rotation>
+<Translation>-16.998819320067504 1.7519109795911536 -4.5237991346997397</Translation>
+</Transform>
+</Instance>
+<Instance name="sopoetellantas:4" uid="sopoetellantas:4" entityUid="sopoetellantas.ipt_{FE50DCF4-4FA7-06A1-C772-0FA9E34D5D59}">
+<Transform>
+<Rotation>3.2438439398982965e-15 0 -0.99999999999999867 -2.4633073358870666e-16 0.99999999999999944 0 0.999999999999999 1.7694179454963489e-16 3.1301389617939425e-15</Rotation>
+<Translation>17.001180679932496 1.7519109795911518 -4.5237991346998374</Translation>
+</Transform>
+</Instance>
+<Instance name="soporte_para_engrane:2" uid="soporte_para_engrane:2" entityUid="soporte_para_engrane.ipt_{FE50DCF4-4FA7-06A1-C772-0FA9E34D5D59}">
+<Transform>
+<Rotation>-2.9828347768973907e-15 -3.2710125357719726e-16 1 2.463307335887068e-16 0.99999999999999967 0 -0.99999999999999856 -1.4224732503009685e-16 -3.1685092127837083e-15</Rotation>
+<Translation>-4.9988193200675717 1.7519109795911607 -25.523799134699782</Translation>
+</Transform>
+</Instance>
+<Instance name="soporte_para_engrane:3" uid="soporte_para_engrane:3" entityUid="soporte_para_engrane.ipt_{FE50DCF4-4FA7-06A1-C772-0FA9E34D5D59}">
+<Transform>
+<Rotation>-3.1742770805025092e-15 -2.1199019512611629e-16 0.99999999999999889 2.4633073358870656e-16 0.99999999999999833 0 -0.999999999999999 3.5735303605122241e-16 -3.3451137524226709e-15</Rotation>
+<Translation>-4.998819320067545 1.7519109795911527 -18.523799134699765</Translation>
+</Transform>
+</Instance>
+<Instance name="soporte_para_engrane:4" uid="soporte_para_engrane:4" entityUid="soporte_para_engrane.ipt_{FE50DCF4-4FA7-06A1-C772-0FA9E34D5D59}">
+<Transform>
+<Rotation>-3.2826305776176422e-15 -1.4267028998209464e-16 1.0000000000000016 2.463307335887072e-16 1.0000000000000013 0 -0.99999999999999978 1.6306400674182083e-16 -3.1519778901891219e-15</Rotation>
+<Translation>-4.9988193200675273 1.7519109795911607 -11.52379913469977</Translation>
+</Transform>
+</Instance>
+<Instance name="soporte_para_engrane:7" uid="soporte_para_engrane:7" entityUid="soporte_para_engrane.ipt_{FE50DCF4-4FA7-06A1-C772-0FA9E34D5D59}">
+<Transform>
+<Rotation>2.5456844609513358e-15 -2.3777333626860924e-16 -0.99999999999999967 -2.4633073358870725e-16 1 0 1 0 2.3760116450330369e-15</Rotation>
+<Translation>4.0011806799324301 1.7519109795911616 -25.523799134699797</Translation>
+</Transform>
+</Instance>
+<Instance name="soporte_para_engrane:8" uid="soporte_para_engrane:8" entityUid="soporte_para_engrane.ipt_{FE50DCF4-4FA7-06A1-C772-0FA9E34D5D59}">
+<Transform>
+<Rotation>2.8694995098003834e-15 3.5282700906754822e-16 -1.0000000000000007 -2.46330733588707e-16 0.99999999999999944 0 0.99999999999999956 1.9081958235744829e-16 2.4022387063272111e-15</Rotation>
+<Translation>4.001180679932455 1.7519109795911572 -18.523799134699793</Translation>
+</Transform>
+</Instance>
+<Instance name="soporte_para_engrane:9" uid="soporte_para_engrane:9" entityUid="soporte_para_engrane.ipt_{FE50DCF4-4FA7-06A1-C772-0FA9E34D5D59}">
+<Transform>
+<Rotation>3.347890321686852e-15 3.0755383260584358e-16 -0.99999999999999967 0 0.99999999999999867 -1.4571677198205236e-16 0.99999999999999956 1.908195823574493e-16 3.8615402578925036e-15</Rotation>
+<Translation>4.0011806799324745 1.7519109795911518 -11.523799134699797</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:1" uid="din_912-m5x0_8-20-8_8:1" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.4633073358870715e-16 1 0 -1 2.4633073358870715e-16</Rotation>
+<Translation>-17.998819320067586 -0.94324655515576361 -34.473799134699725</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:2" uid="din_912-m5x0_8-20-8_8:2" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>0.99999999999999933 0 0 1.3305871161828528e-16 2.4633073358870779e-16 0.99999999999999989 0 -1.0000000000000004 1.4743781740231019e-16</Rotation>
+<Translation>-4.4988193200675841 -0.94324655515576206 -30.573799134699772</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:3" uid="din_912-m5x0_8-20-8_8:3" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.463307335887073e-16 1 0 -1 2.463307335887073e-16</Rotation>
+<Translation>-17.498819320067508 -0.94324655515576916 -6.4737991346997434</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:4" uid="din_912-m5x0_8-20-8_8:4" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.463307335887073e-16 1 0 -1 2.463307335887073e-16</Rotation>
+<Translation>-17.498819320067497 -0.94324655515577049 -2.5737991346997386</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:5" uid="din_912-m5x0_8-20-8_8:5" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.4633073358870725e-16 1 0 -1 2.4633073358870725e-16</Rotation>
+<Translation>17.001180679932421 -0.94324655515576183 -30.573799134699836</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:6" uid="din_912-m5x0_8-20-8_8:6" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.4633073358870725e-16 1 0 -1 2.4633073358870725e-16</Rotation>
+<Translation>17.001180679932411 -0.9432465551557605 -34.473799134699838</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:7" uid="din_912-m5x0_8-20-8_8:7" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1.0000000000000002 0 1.4449704453800563e-16 0 2.4633073358870769e-16 1.0000000000000004 0 -0.99999999999999978 1.3530843112619228e-16</Rotation>
+<Translation>3.5011806799325003 -0.94324655515576961 -2.5737991346997924</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:8" uid="din_912-m5x0_8-20-8_8:8" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>0.999999999999999 0 1.444970445380055e-16 0 2.4633073358870774e-16 1.0000000000000002 0 -1 3.0268041572615223e-16</Rotation>
+<Translation>3.5011806799324905 -0.94324655515577005 -6.4737991346997932</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:9" uid="din_912-m5x0_8-20-8_8:9" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.463307335887072e-16 1 0 -1 2.463307335887072e-16</Rotation>
+<Translation>3.5011806799324474 -0.94324655515576694 -20.473799134699799</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:10" uid="din_912-m5x0_8-20-8_8:10" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.463307335887072e-16 1 0 -1 2.463307335887072e-16</Rotation>
+<Translation>3.5011806799324585 -0.94324655515576805 -16.573799134699797</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:11" uid="din_912-m5x0_8-20-8_8:11" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.4633073358870725e-16 1 0 -1 2.4633073358870725e-16</Rotation>
+<Translation>3.5011806799324261 -0.94324655515576361 -27.473799134699796</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:12" uid="din_912-m5x0_8-20-8_8:12" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.4633073358870725e-16 1 0 -1 2.4633073358870725e-16</Rotation>
+<Translation>3.5011806799324381 -0.94324655515576494 -23.573799134699797</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:15" uid="din_912-m5x0_8-20-8_8:15" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.4633073358870725e-16 1 0 -1 2.4633073358870725e-16</Rotation>
+<Translation>16.501180679932489 -0.94324655515577005 -6.473799134699834</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:16" uid="din_912-m5x0_8-20-8_8:16" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 -5.6292402106519696e-16 0 0 2.4633073358870621e-16 0.99999999999999978 -5.3551455804490278e-16 -0.99999999999999978 1.8773952385432178e-16</Rotation>
+<Translation>3.5011806799324039 -0.94324655515576339 -34.473799134699831</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:17" uid="din_912-m5x0_8-20-8_8:17" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.463307335887073e-16 1 0 -1 2.463307335887073e-16</Rotation>
+<Translation>3.5011806799324687 -0.9432465551557685 -13.473799134699796</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:18" uid="din_912-m5x0_8-20-8_8:18" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.463307335887073e-16 1 0 -1 2.463307335887073e-16</Rotation>
+<Translation>3.5011806799324807 -0.94324655515576894 -9.5737991346997973</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:19" uid="din_912-m5x0_8-20-8_8:19" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>0.99999999999999933 0 2.277637713848921e-16 0 2.4633073358870715e-16 0.99999999999999922 0 -0.99999999999999911 2.5196070880272843e-16</Rotation>
+<Translation>3.5011806799324168 -0.94324655515576517 -30.573799134699836</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:20" uid="din_912-m5x0_8-20-8_8:20" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.4633073358870725e-16 1 0 -1 2.4633073358870725e-16</Rotation>
+<Translation>16.501180679932503 -0.94324655515577116 -2.5737991346998372</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:21" uid="din_912-m5x0_8-20-8_8:21" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.4633073358870715e-16 1 0 -1 2.4633073358870715e-16</Rotation>
+<Translation>-17.998819320067582 -0.94324655515576383 -30.573799134699737</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:22" uid="din_912-m5x0_8-20-8_8:22" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 1.340648631488476e-16 1.1674146892237472e-16 0 2.4633073358870779e-16 0.999999999999999 1.0286368111456403e-16 -0.99999999999999978 1.347337264269589e-16</Rotation>
+<Translation>-4.4988193200675983 -0.94324655515576161 -34.473799134699775</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:23" uid="din_912-m5x0_8-20-8_8:23" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.4633073358870725e-16 1 0 -1 2.4633073358870725e-16</Rotation>
+<Translation>-4.4988193200675743 -0.94324655515576361 -27.473799134699782</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:24" uid="din_912-m5x0_8-20-8_8:24" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.4633073358870725e-16 1 0 -1 2.4633073358870725e-16</Rotation>
+<Translation>-4.4988193200675637 -0.94324655515576383 -23.573799134699783</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:25" uid="din_912-m5x0_8-20-8_8:25" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.4633073358870725e-16 1 0 -1 2.4633073358870725e-16</Rotation>
+<Translation>-4.498819320067553 -0.94324655515576783 -20.47379913469976</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:26" uid="din_912-m5x0_8-20-8_8:26" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.4633073358870725e-16 1 0 -1 2.4633073358870725e-16</Rotation>
+<Translation>-4.4988193200675406 -0.94324655515576805 -16.573799134699772</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:27" uid="din_912-m5x0_8-20-8_8:27" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.463307335887072e-16 1 0 -1 2.463307335887072e-16</Rotation>
+<Translation>-4.4988193200675326 -0.94324655515576694 -13.473799134699776</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:28" uid="din_912-m5x0_8-20-8_8:28" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1 0 0 0 2.463307335887072e-16 1 0 -1 2.463307335887072e-16</Rotation>
+<Translation>-4.4988193200675193 -0.94324655515576805 -9.5737991346997724</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:29" uid="din_912-m5x0_8-20-8_8:29" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>1.0000000000000002 0 0 -1.1674146892237679e-16 2.4633073358870784e-16 0.99999999999999978 0 -1.0000000000000004 1.8917145575847587e-16</Rotation>
+<Translation>-4.4988193200675131 -0.94324655515576694 -6.4737991346997719</Translation>
+</Transform>
+</Instance>
+<Instance name="din_912-m5x0_8-20-8_8:30" uid="din_912-m5x0_8-20-8_8:30" entityUid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}">
+<Transform>
+<Rotation>0.99999999999999911 0 0 0 2.4633073358870754e-16 0.99999999999999967 0 -0.99999999999999911 2.8362564466688325e-16</Rotation>
+<Translation>-4.4988193200674989 -0.94324655515576961 -2.573799134699768</Translation>
+</Transform>
+</Instance>
+<Instance name="sopoetellantas:5" uid="sopoetellantas:5" entityUid="sopoetellantas.ipt_{FE50DCF4-4FA7-06A1-C772-0FA9E34D5D59}">
+<Transform>
+<Rotation>-2.9605947323337517e-15 0 1 2.4633073358870774e-16 1 0 -1 2.4633073358870774e-16 -2.9605947323337517e-15</Rotation>
+<Translation>-4.9988193200675894 1.7519109795911625 -32.523799134699765</Translation>
+</Transform>
+</Instance>
+<Instance name="sopoetellantas:6" uid="sopoetellantas:6" entityUid="sopoetellantas.ipt_{FE50DCF4-4FA7-06A1-C772-0FA9E34D5D59}">
+<Transform>
+<Rotation>3.0744637605004458e-15 0 -1 -2.4633073358870735e-16 1 0 1 2.4633073358870735e-16 3.0744637605004458e-15</Rotation>
+<Translation>4.0011806799324106 1.7519109795911616 -32.523799134699814</Translation>
+</Transform>
+</Instance>
+<Instance name="sopoetellantas:7" uid="sopoetellantas:7" entityUid="sopoetellantas.ipt_{FE50DCF4-4FA7-06A1-C772-0FA9E34D5D59}">
+<Transform>
+<Rotation>-3.074463760500432e-15 0 1 2.4633073358870774e-16 1 0 -1 2.4633073358870774e-16 -3.074463760500432e-15</Rotation>
+<Translation>3.0011806799324958 1.7519109795911545 -4.5237991346997912</Translation>
+</Transform>
+</Instance>
+<Instance name="sopoetellantas:8" uid="sopoetellantas:8" entityUid="sopoetellantas.ipt_{FE50DCF4-4FA7-06A1-C772-0FA9E34D5D59}">
+<Transform>
+<Rotation>-3.6438089013338452e-15 0 1 2.4633073358870774e-16 1 0 -1 2.4633073358870774e-16 -3.6438089013338452e-15</Rotation>
+<Translation>-4.9988193200675051 1.7519109795911554 -4.5237991346997664</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Eje-engrane:1" uid="Eje-engrane:1" entityUid="Eje-engrane.iam_{5CCBDBBD-41EE-1135-6256-1CB087127A0B}" rigid="true">
+<Transform>
+<Rotation>-3.273351407103102e-15 -7.0085184731821726e-16 -1 0.33857820879554845 -0.94093825330294079 -4.4882714313561399e-16 -0.94093825330294079 -0.33857820879554706 3.3173147185423876e-15</Rotation>
+<Translation>-2.4219631034745372 7.251148706111846 5.2193837426383904</Translation>
+</Transform>
+<Instance name="Engranaje recto2:1" uid="Engranaje recto2:1" entityUid="Engranaje recto2_{81073134-4768-0B32-7DEF-EABF806946EE}">
+<Transform>
+<Rotation>0.99999999999999845 -6.106226635438361e-16 0 2.2204460492503131e-16 0.999999999999998 0 0 0 1</Rotation>
+<Translation>-6.9128310435726803 0.59109467253716375 -4.4207824235420414</Translation>
+</Transform>
+</Instance>
+<Instance name="Eje_engrane:1" uid="Eje_engrane:1" entityUid="Eje_engrane.ipt_{BD68F43F-4103-4D0E-0367-B8ABD697BF06}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-6.9128310435726821 0.59109467253716286 -2.9207824235420397</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Eje-engrane:2" uid="Eje-engrane:2" entityUid="Eje-engrane.iam_{5CCBDBBD-41EE-1135-6256-1CB087127A0B}" rigid="true">
+<Transform>
+<Rotation>-2.5558087993836257e-15 2.2353894442277152e-16 -1.0000000000000002 -0.15575962914633565 -0.98779498780272512 1.7728118188141672e-16 -0.98779498780272512 0.15575962914633565 2.5594334648963378e-15</Rotation>
+<Translation>-2.4219631034744848 3.8615715201099077 18.60327059134686</Translation>
+</Transform>
+<Instance name="Engranaje recto2:1" uid="Engranaje recto2:1" entityUid="Engranaje recto2_{81073134-4768-0B32-7DEF-EABF806946EE}">
+<Transform>
+<Rotation>0.99999999999999845 -5.8286708792820718e-16 0 1.9428902930940239e-16 0.99999999999999811 0 0 0 1</Rotation>
+<Translation>-6.9128310435726803 0.59109467253716408 -4.4207824235420414</Translation>
+</Transform>
+</Instance>
+<Instance name="Eje_engrane:1" uid="Eje_engrane:1" entityUid="Eje_engrane.ipt_{BD68F43F-4103-4D0E-0367-B8ABD697BF06}">
+<Transform>
+<Rotation>1.0000000000000002 0 0 0 1.0000000000000002 0 0 0 1</Rotation>
+<Translation>-6.9128310435726839 0.59109467253716319 -2.9207824235420397</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Eje-engrane_chico:1" uid="Eje-engrane_chico:1" entityUid="Eje-engrane_chico.iam_{92E24DB7-4A01-062C-815B-6DAF75440A62}" rigid="true">
+<Transform>
+<Rotation>-7.8298575299097934e-16 2.7837729274283179e-15 -1 -0.92167087636034084 -0.38797267386913414 -3.5837266096202288e-16 -0.38797267386913459 0.92167087636034073 2.8694995098003877e-15</Rotation>
+<Translation>-0.37570561081770948 5.3800278076944581 21.287927181465623</Translation>
+</Transform>
+<Instance name="Eje_engrane:1" uid="Eje_engrane:1" entityUid="Eje_engrane.ipt_{BD68F43F-4103-4D0E-0367-B8ABD697BF06}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>2.0176687057226523 -2.149712847441565 -0.87452493088526317</Translation>
+</Transform>
+</Instance>
+<Instance name="Engranaje recto1:1" uid="Engranaje recto1:1" entityUid="Engranaje recto1_{42D2A807-40A5-957E-2D76-8792B544DC97}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>2.0176687057226506 -2.149712847441565 -2.3745249308852632</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Eje_Engrane-llanta:1" uid="Eje_Engrane-llanta:1" entityUid="Eje_Engrane-llanta.iam_{5F05E3F1-47A1-161E-E49C-3D89EE812FC8}" rigid="true">
+<Transform>
+<Rotation>-1.9557193475441335e-15 3.4003349995760611e-15 -1.0000000000000002 -0.76022054459626776 -0.64966508569704373 -7.1242741212091624e-16 -0.64966508569704529 0.76022054459626798 3.8534831930944716e-15</Rotation>
+<Translation>-1.7887563152316597 -0.84745507273366738 -9.2996210064284881</Translation>
+</Transform>
+<Instance name="Eje_Engranes_llanta:1" uid="Eje_Engranes_llanta:1" entityUid="Eje_Engranes_llanta.ipt_{B19C670F-4F26-5A09-7B12-4BA60C9A8AA1}">
+<Transform>
+<Rotation>1 -1.1102230246251565e-16 0 -8.3266726846886741e-16 0.99999999999999956 1.5669696463520401e-16 -2.0816681711721725e-16 5.1141809146128228e-16 0.99999999999999933</Rotation>
+<Translation>-12.935174219158938 7.1293641194747419 -2.287575635299111</Translation>
+</Transform>
+</Instance>
+<Instance name="Engranaje recto1:1" uid="Engranaje recto1:1" entityUid="Engranaje recto1_{42D2A807-40A5-957E-2D76-8792B544DC97}">
+<Transform>
+<Rotation>1.0000000000000002 0 1.4293058424398729e-16 -4.4408920985006262e-16 0.99999999999999978 -6.3014740981340784e-16 -1.8041124150158833e-16 5.1141809146128188e-16 1.0000000000000002</Rotation>
+<Translation>-12.935174219158938 7.1293641194747419 -3.7875756352991123</Translation>
+</Transform>
+</Instance>
+<Instance name="Llanta_125-15:1" uid="Llanta_125-15:1" entityUid="Llanta_125-15.ipt_{58D31575-4349-6BF1-2996-3C893D0FE874}">
+<Transform>
+<Rotation>1 -1.1102230246251565e-16 -6.3837823915946541e-16 -1.1102230246251565e-16 -1 5.1141809146128149e-16 -6.3837823915946422e-16 -5.1141809146128188e-16 -1</Rotation>
+<Translation>-12.935174219158945 7.1293641194747357 -22.5875756352991</Translation>
+</Transform>
+</Instance>
+<Instance name="Llanta_125-15:2" uid="Llanta_125-15:2" entityUid="Llanta_125-15.ipt_{58D31575-4349-6BF1-2996-3C893D0FE874}">
+<Transform>
+<Rotation>1 3.8857805861880479e-16 0 2.2204460492503131e-16 1 -3.3101579920331593e-16 0 5.1141809146128228e-16 0.99999999999999978</Rotation>
+<Translation>-12.935174219158949 7.1293641194747455 18.012424364700877</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Eje_Engrane-llanta:2" uid="Eje_Engrane-llanta:2" entityUid="Eje_Engrane-llanta.iam_{5F05E3F1-47A1-161E-E49C-3D89EE812FC8}" rigid="true">
+<Transform>
+<Rotation>-1.2778720366012096e-15 2.8160267561780588e-15 -1.0000000000000002 -0.92256066259761582 -0.3858520750591472 0 -0.3858520750591472 0.92256066259761582 3.0910250870548783e-15</Rotation>
+<Translation>-1.7887563152315606 -4.8281717941323432 20.955464435023437</Translation>
+</Transform>
+<Instance name="Eje_Engranes_llanta:1" uid="Eje_Engranes_llanta:1" entityUid="Eje_Engranes_llanta.ipt_{B19C670F-4F26-5A09-7B12-4BA60C9A8AA1}">
+<Transform>
+<Rotation>0.99999999999999989 -2.2204460492503131e-16 0 -7.2164496600635175e-16 0.99999999999999956 1.5669696463520322e-16 -2.0816681711721685e-16 5.1141809146128228e-16 0.99999999999999933</Rotation>
+<Translation>-12.935174219158938 7.1293641194747366 -2.2875756352991106</Translation>
+</Transform>
+</Instance>
+<Instance name="Engranaje recto1:1" uid="Engranaje recto1:1" entityUid="Engranaje recto1_{42D2A807-40A5-957E-2D76-8792B544DC97}">
+<Transform>
+<Rotation>1.0000000000000002 -2.7755575615628914e-16 1.429305842439865e-16 -3.3306690738754696e-16 0.99999999999999967 -6.3014740981340744e-16 -1.8041124150158794e-16 5.1141809146128188e-16 1.0000000000000002</Rotation>
+<Translation>-12.935174219158942 7.1293641194747401 -3.7875756352991123</Translation>
+</Transform>
+</Instance>
+<Instance name="Llanta_125-15:1" uid="Llanta_125-15:1" entityUid="Llanta_125-15.ipt_{58D31575-4349-6BF1-2996-3C893D0FE874}">
+<Transform>
+<Rotation>0.99999999999999989 0 -6.3837823915946462e-16 0 -0.99999999999999989 5.1141809146128228e-16 -6.3837823915946442e-16 -5.1141809146128188e-16 -1</Rotation>
+<Translation>-12.935174219158945 7.1293641194747295 -22.5875756352991</Translation>
+</Transform>
+</Instance>
+<Instance name="Llanta_125-15:2" uid="Llanta_125-15:2" entityUid="Llanta_125-15.ipt_{58D31575-4349-6BF1-2996-3C893D0FE874}">
+<Transform>
+<Rotation>0.99999999999999989 3.3306690738754696e-16 0 3.8857805861880479e-16 0.99999999999999989 -3.3101579920331554e-16 0 5.1141809146128149e-16 0.99999999999999978</Rotation>
+<Translation>-12.935174219158945 7.1293641194747401 18.012424364700877</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Base_carga:1" uid="Base_carga:1" entityUid="Base_carga.ipt_{CFB752C0-4C34-8CF3-C4AE-2A8E1622E1F9}">
+<Transform>
+<Rotation>-3.0744637605013029e-15 5.8947497358828232e-16 1.0000000000000013 0 1.0000000000000018 0 -0.99999999999999922 -7.2164496600635639e-16 -3.062987392516046e-15</Rotation>
+<Translation>0.49881932006750523 10.555000000000017 0.6213838186586933</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Insertar:1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Eje-engrane:2</Uid>
+</InstancePath>
+<Position>-6.9128310435726839 0.59109467253716319 1.2792175764579601</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base-soporte:1</Uid>
+</InstancePath>
+<Position>3.7011806799324298 1.7519109795911616 -25.523799134699797</Position>
+<Axis>1 2.3777333626860909e-16 -2.5456844609513358e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Insertar:1_Coincident">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje-engrane:2</Uid>
+</InstancePath>
+<Position>-6.9128310435726839 0.59109467253716319 1.2792175764579601</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-soporte:1</Uid>
+</InstancePath>
+<Position>3.7011806799324298 1.7519109795911616 -25.523799134699797</Position>
+<Axis>1 2.3777333626860909e-16 -2.5456844609513358e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Insertar:2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Eje-engrane_chico:1</Uid>
+</InstancePath>
+<Position>2.0176687057226523 -2.1497128474415685 3.325475069114737</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base-soporte:1</Uid>
+</InstancePath>
+<Position>3.7011806799324547 1.7519109795911572 -18.523799134699793</Position>
+<Axis>1 -3.5282700906754782e-16 -2.8694995098003845e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Insertar:2_Coincident">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje-engrane_chico:1</Uid>
+</InstancePath>
+<Position>2.0176687057226523 -2.1497128474415685 3.325475069114737</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-soporte:1</Uid>
+</InstancePath>
+<Position>3.7011806799324547 1.7519109795911572 -18.523799134699793</Position>
+<Axis>1 -3.5282700906754782e-16 -2.8694995098003845e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Insertar:3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Eje-engrane:1</Uid>
+</InstancePath>
+<Position>-6.9128310435726839 0.59109467253716197 1.2792175764579605</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base-soporte:1</Uid>
+</InstancePath>
+<Position>3.7011806799324742 1.7519109795911518 -11.523799134699795</Position>
+<Axis>1 -3.0755383260584328e-16 -3.3478903216868536e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Insertar:3_Coincident">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje-engrane:1</Uid>
+</InstancePath>
+<Position>-6.9128310435726839 0.59109467253716197 1.2792175764579605</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-soporte:1</Uid>
+</InstancePath>
+<Position>3.7011806799324742 1.7519109795911518 -11.523799134699795</Position>
+<Axis>1 -3.0755383260584328e-16 -3.3478903216868536e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-soporte:1</Uid>
+</InstancePath>
+<Position>-0.49881932006754576 -2.6025201853678035 -20.523799134699793</Position>
+<Axis>0 -1 -2.4633073358870754e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Nivelación:1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje_Engrane-llanta:1</Uid>
+</InstancePath>
+<Position>-12.935174219158938 7.1293641194747419 -3.7875756352991123</Position>
+<Axis>-1.8656342760342577e-16 5.0341939928052564e-16 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje-engrane:1</Uid>
+</InstancePath>
+<Position>-6.9128310435726803 0.59109467253716375 -4.4207824235420414</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Nivelación:2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje_Engrane-llanta:2</Uid>
+</InstancePath>
+<Position>-12.935174219158942 7.1293641194747401 -3.7875756352991123</Position>
+<Axis>-1.8041124150158242e-16 5.1141809146128622e-16 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje-engrane:2</Uid>
+</InstancePath>
+<Position>-6.9128310435726803 0.59109467253716408 -4.4207824235420414</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje_Engrane-llanta:1</Uid>
+</InstancePath>
+<Position>-12.935174219158938 7.1293641194747419 -2.287575635299111</Position>
+<Axis>2.1431900321905429e-16 -5.0341939928052603e-16 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base-soporte:1</Uid>
+</InstancePath>
+<Position>-4.9988193200675051 1.7519109795911554 -4.5237991346997664</Position>
+<Axis>-1 0 3.6438089013338452e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje_Engrane-llanta:2</Uid>
+</InstancePath>
+<Position>-12.935174219158938 7.1293641194747366 -2.2875756352991106</Position>
+<Axis>2.0816681711721113e-16 -5.1141809146128701e-16 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base-soporte:1</Uid>
+</InstancePath>
+<Position>-4.9988193200675894 1.7519109795911625 -32.523799134699765</Position>
+<Axis>-1 0 2.9605947323337517e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="Tangente:1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje_Engrane-llanta:2</Uid>
+</InstancePath>
+<Position>-12.935174219158942 7.1293641194747401 -3.7875756352991123</Position>
+<Axis>1.8041124150158242e-16 -5.1141809146128622e-16 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje-engrane:2</Uid>
+</InstancePath>
+<Position>-6.9128310435726803 0.59109467253716408 -4.4207824235420414</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="Tangente:2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje-engrane:2</Uid>
+</InstancePath>
+<Position>-6.9128310435726803 0.59109467253716408 -4.4207824235420414</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje-engrane_chico:1</Uid>
+</InstancePath>
+<Position>2.0176687057226506 -2.149712847441565 -2.3745249308852632</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="Tangente:3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje-engrane_chico:1</Uid>
+</InstancePath>
+<Position>2.0176687057226506 -2.149712847441565 -2.3745249308852632</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje-engrane:1</Uid>
+</InstancePath>
+<Position>-6.9128310435726803 0.59109467253716375 -4.4207824235420414</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="Tangente:4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje-engrane:1</Uid>
+</InstancePath>
+<Position>-6.9128310435726803 0.59109467253716375 -4.4207824235420414</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje_Engrane-llanta:1</Uid>
+</InstancePath>
+<Position>-12.935174219158938 7.1293641194747419 -3.7875756352991123</Position>
+<Axis>1.8656342760342577e-16 -5.0341939928052564e-16 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="Rotación:1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje_Engrane-llanta:2</Uid>
+</InstancePath>
+<Position>-12.935174219158942 7.1293641194747401 -3.7875756352991123</Position>
+<Axis>-1.8041124150158242e-16 5.1141809146128622e-16 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje-engrane:2</Uid>
+</InstancePath>
+<Position>-6.9128310435726803 0.59109467253716408 -4.4207824235420414</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="Rotación:2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje-engrane:2</Uid>
+</InstancePath>
+<Position>-6.9128310435726803 0.59109467253716408 -4.4207824235420414</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje-engrane_chico:1</Uid>
+</InstancePath>
+<Position>2.0176687057226506 -2.149712847441565 -2.3745249308852632</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="Rotación:3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje-engrane_chico:1</Uid>
+</InstancePath>
+<Position>2.0176687057226506 -2.149712847441565 -2.3745249308852632</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje-engrane:1</Uid>
+</InstancePath>
+<Position>-6.9128310435726803 0.59109467253716375 -4.4207824235420414</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="Rotación:4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje-engrane:1</Uid>
+</InstancePath>
+<Position>-6.9128310435726803 0.59109467253716375 -4.4207824235420414</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje_Engrane-llanta:1</Uid>
+</InstancePath>
+<Position>-12.935174219158938 7.1293641194747419 -3.7875756352991123</Position>
+<Axis>-1.8656342760342577e-16 5.0341939928052564e-16 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincidencia:4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-soporte:1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-soporte:1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_carga:1</Uid>
+</InstancePath>
+<Position>-0.49999999999999323 -9.9999999999999787 -5.0022546697498207</Position>
+<Axis>7.2164496600635353e-16 -0.99999999999999822 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-soporte:1</Uid>
+</InstancePath>
+<Position>-5.4988193200674935 -2.0475201853678082 -1.0237991346997761</Position>
+<Axis>0 -1 -2.4633073358870754e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_carga:1</Uid>
+</InstancePath>
+<Position>-0.49999999999999323 -9.9999999999999787 -5.0022546697498207</Position>
+<Axis>7.2164496600635353e-16 -0.99999999999999822 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-soporte:1</Uid>
+</InstancePath>
+<Position>-5.4988193200674935 -2.0475201853678082 -1.0237991346997761</Position>
+<Axis>0 -1 -2.4633073358870754e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_carga:1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 1.7763568394002505e-15 -5.499999999999992</Position>
+<Axis>0 6.5071387389776446e-16 -0.99999999999999867</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-soporte:1</Uid>
+</InstancePath>
+<Position>5.0011806799325056 -1.347520185367808 -1.5237991346998085</Position>
+<Axis>1 0 -3.0744637605013065e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+<Joints>
+</Joints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Base-soporte.iam" uid="Base-soporte.iam_{63945171-485C-683A-A09F-CBB10D424013}" version="{0954DF2A-392F-BECE-C1B8-301132092B0D}">
+<AssemblyFile name="Base-soporte.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="Eje-engrane.iam" uid="Eje-engrane.iam_{5CCBDBBD-41EE-1135-6256-1CB087127A0B}" version="{3647B0D6-D1F1-6506-0D88-671BA3BD12A2}">
+<AssemblyFile name="Eje-engrane.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="Eje-engrane_chico.iam" uid="Eje-engrane_chico.iam_{92E24DB7-4A01-062C-815B-6DAF75440A62}" version="{F4E828A4-F4DA-E874-9538-2AF5A7F56510}">
+<AssemblyFile name="Eje-engrane_chico.iam" type="Inventor Assembly"/>
+</Assembly>
+<Assembly name="Eje_Engrane-llanta.iam" uid="Eje_Engrane-llanta.iam_{5F05E3F1-47A1-161E-E49C-3D89EE812FC8}" version="{33C54AA6-026A-35B0-BEDF-4922B127F7B9}">
+<AssemblyFile name="Eje_Engrane-llanta.iam" type="Inventor Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Base_carga.ipt" uid="Base_carga.ipt_{CFB752C0-4C34-8CF3-C4AE-2A8E1622E1F9}" version="{BE99583C-9FFB-170E-820F-593ADC1BA625}">
+<PartFile name="Base_carga.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.1859664318237467</Mass>
+<CenterOfMass>-5.5233339338378986 0.10279138288099976 2.4453195473334661e-15</CenterOfMass>
+<Inertia>4.6690101190857138 5.2064251475840164 4.2334110734935573 -1.2686181715761903e-14 1.0221204350346899e-14 0.067651128789265158</Inertia>
+</MassProperties>
+<GeometryFile name="Base_carga_ipt_6a19208d.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BaseCarro.ipt" uid="BaseCarro.ipt_{177264CC-431B-86EB-ED97-A2993D9CF640}" version="{8929C70F-96F1-5D31-F349-FE05A3345DEC}">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BaseCarro.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>1.805311733762627</Mass>
+<CenterOfMass>1.0680309287859144e-13 -21.318363373014897 0.00045622037712204927</CenterOfMass>
+<Inertia>297.73587298231655 175.68628132055727 472.94817358553343 -0.011586985441273057 -7.6245499076777604e-15 -1.6164725373451627e-13</Inertia>
+</MassProperties>
+<GeometryFile name="BaseCarro_ipt_34cce69d.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="0" a="1"/>
+<Diffuse r="1" g="1" b="0" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.51500000000000001</Shininess>
+</VisualProperties>
+</Part>
+<Part name="din_912-m5x0_8-20-8_8.ipt" uid="din_912-m5x0_8-20-8_8.ipt_{DC8396B2-4973-DEC4-4092-B592027D6D08}" version="{65B64547-E101-E3A3-F39A-2A5120B29AF6}">
+<PartFile name="din_912-m5x0_8-20-8_8.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00063214116674901891</Mass>
+<CenterOfMass>0 -2.646402455955277e-11 -0.52846297306191126</CenterOfMass>
+<Inertia>0.00037797765154778365 0.00037797764841418372 3.6763799739598072e-05 5.4375592199835989e-15 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="din_912-m5x0_8-20-8_8_ipt_2ec1c9ae.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Eje_engrane.ipt" uid="Eje_engrane.ipt_{BD68F43F-4103-4D0E-0367-B8ABD697BF06}" version="{17985186-4884-8B15-1903-924E15DA9E6F}">
+<PartFile name="Eje_engrane.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.014752055914514915</Mass>
+<CenterOfMass>1.578298870215104e-10 -0.0041180700745736118 -0.0062343428081585474</CenterOfMass>
+<Inertia>0.089229582162922441 0.089266281796504407 0.0041305402836127551 6.1128736325594384e-05 -1.4522621287269308e-14 -9.5863892797174396e-15</Inertia>
+</MassProperties>
+<GeometryFile name="Eje_engrane_ipt_984e0b.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Eje_Engranes_llanta.ipt" uid="Eje_Engranes_llanta.ipt_{B19C670F-4F26-5A09-7B12-4BA60C9A8AA1}" version="{5EB47AE4-D7EC-BA6F-F469-0E204839B284}">
+<PartFile name="Eje_Engranes_llanta.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.079429594670292009</Mass>
+<CenterOfMass>1.5703369796475655e-10 -0.00076482827656588017 -0.0011578728819930284</CenterOfMass>
+<Inertia>13.430306595955306 13.430343089530185 0.02232130059348289 6.0820340777679313e-05 -1.4442290851052873e-14 -9.5397971513598809e-15</Inertia>
+</MassProperties>
+<GeometryFile name="Eje_Engranes_llanta_ipt_50d971a8.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Engranaje recto1" uid="Engranaje recto1_{42D2A807-40A5-957E-2D76-8792B544DC97}" version="{D852719A-784E-D808-067D-4D8EA1AFC54F}">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Engranaje recto_20_Dientes.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.19611366055225904</Mass>
+<CenterOfMass>2.016309648212478e-07 -0.00099436768494304815 1.1907358494987355</CenterOfMass>
+<Inertia>0.32175261363259755 0.32195069519152714 0.42745001579476499 0.00025531840614547607 -5.1768364793209735e-08 -3.4494865785365639e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Engranaje recto1_ipt_b63e08a7.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74509803921568629" g="0.73725490196078436" b="0.72941176470588232" a="1"/>
+<Diffuse r="0.74509803921568629" g="0.73725490196078436" b="0.72941176470588232" a="1"/>
+<Specular r="0.74509803921568629" g="0.73725490196078436" b="0.72941176470588232" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.65000000000000002</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Engranaje recto2" uid="Engranaje recto2_{81073134-4768-0B32-7DEF-EABF806946EE}" version="">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Engranaje recto_50_Dientes.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>1.2466882970445265</Mass>
+<CenterOfMass>3.1718100012978582e-08 -0.00015642168703703706 1.0300042165571126</CenterOfMass>
+<Inertia>8.2869484605915957 8.2871463787434969 15.645433830719332 0.00028666253507769941 -5.8124109040825191e-08 -3.4461766362025838e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Engranaje recto2_ipt_5f3fcba8.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74509803921568629" g="0.73725490196078436" b="0.72941176470588232" a="1"/>
+<Diffuse r="0.74509803921568629" g="0.73725490196078436" b="0.72941176470588232" a="1"/>
+<Specular r="0.74509803921568629" g="0.73725490196078436" b="0.72941176470588232" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.65000000000000002</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Llanta_125-15.ipt" uid="Llanta_125-15.ipt_{58D31575-4349-6BF1-2996-3C893D0FE874}" version="{A81D7406-2579-BA42-1B01-E4C2D2056CB6}">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Llanta_125-15.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.40999999999999992</Mass>
+<CenterOfMass>3.443829014465794e-06 2.5501114511294737e-06 2.086182032273161e-06</CenterOfMass>
+<Inertia>4.2074550396442785 4.2074555599646342 7.7322255616247757 9.6937748951688869e-07 1.4956070910641828e-06 9.4063279660041253e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Llanta_125-15_ipt_e4bac8f7.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="sopoetellantas.ipt" uid="sopoetellantas.ipt_{FE50DCF4-4FA7-06A1-C772-0FA9E34D5D59}" version="{C5B52EE7-3B63-3F2E-C0BB-19E1E5E9B179}">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="sopoetellantas.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.010720666297886126</Mass>
+<CenterOfMass>0 -1.2813215411516254 0.5</CenterOfMass>
+<Inertia>0.018496035638611002 0.01069959370034583 0.027387353159593977 0 0 8.597567102697212e-16</Inertia>
+</MassProperties>
+<GeometryFile name="sopoetellantas_ipt_847272bd.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="soporte_para_engrane.ipt" uid="soporte_para_engrane.ipt_{FE50DCF4-4FA7-06A1-C772-0FA9E34D5D59}" version="{557EAC68-7551-F089-C8BC-D530D4850F7A}">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="soporte_para_engrane.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.011250810058179274</Mass>
+<CenterOfMass>8.6228415487715646e-12 -1.2209450334885432 0.48350782609046355</CenterOfMass>
+<Inertia>0.01946581483360086 0.010840003732207077 0.028365825264933128 0.00022654673690776495 -1.6150109846605115e-14 -1.1760315753929137e-13</Inertia>
+</MassProperties>
+<GeometryFile name="soporte_para_engrane_ipt_847272bd.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

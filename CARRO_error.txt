@@ -1,0 +1,33 @@
+Constrained Instances: 'Eje_Engrane-llanta:2', 'Eje-engrane:2'
+Constraint Name: Tangente:1
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Eje-engrane:2', 'Eje-engrane_chico:1'
+Constraint Name: Tangente:2
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Eje-engrane_chico:1', 'Eje-engrane:1'
+Constraint Name: Tangente:3
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Eje-engrane:1', 'Eje_Engrane-llanta:1'
+Constraint Name: Tangente:4
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Eje_Engrane-llanta:2', 'Eje-engrane:2'
+Constraint Name: Rotación:1
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Eje-engrane:2', 'Eje-engrane_chico:1'
+Constraint Name: Rotación:2
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Eje-engrane_chico:1', 'Eje-engrane:1'
+Constraint Name: Rotación:3
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Eje-engrane:1', 'Eje_Engrane-llanta:1'
+Constraint Name: Rotación:4
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+
