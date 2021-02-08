@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<Created by="rotje" on="02/08/21||04:37:51" using="Simscape Multibody Link Version 7.2" from="Autodesk Inventor 2021 (Build 250183000, 183)"/>
+<Created by="rotje" on="02/08/21||06:11:22" using="Simscape Multibody Link Version 7.2" from="Autodesk Inventor 2021 (Build 250183000, 183)"/>
 <ModelUnits mass="lbmass" length="millimeter"/>
 <DataUnits mass="kilogram" length="centimeter"/>
-<RootAssembly name="CARRO.iam" uid="CARRO.iam_{4D9ABA1B-48D4-BE95-66A7-1EBAD937D17C}" version="{0E6E95A4-9D98-327D-0FD4-08C855591468}">
+<RootAssembly name="CARRO.iam" uid="CARRO.iam_{4D9ABA1B-48D4-BE95-66A7-1EBAD937D17C}" version="{BAD5C247-7580-B62F-0270-A6EE8A394D97}">
 <AssemblyFile name="CARRO.iam" type="Inventor Assembly"/>
 <InstanceTree>
 <Instance name="Base-soporte:1" uid="Base-soporte:1" entityUid="Base-soporte.iam_{63945171-485C-683A-A09F-CBB10D424013}" rigid="true">
@@ -644,7 +644,7 @@
 </Joints>
 </RootAssembly>
 <Assemblies>
-<Assembly name="Base-soporte.iam" uid="Base-soporte.iam_{63945171-485C-683A-A09F-CBB10D424013}" version="{11EB4571-8BFE-7167-1366-BA7BA4BBA9A3}">
+<Assembly name="Base-soporte.iam" uid="Base-soporte.iam_{63945171-485C-683A-A09F-CBB10D424013}" version="{4F4E46C6-C5FB-BDE5-99FE-2CB551B923DB}">
 <AssemblyFile name="Base-soporte.iam" type="Inventor Assembly"/>
 </Assembly>
 <Assembly name="Eje-engrane.iam" uid="Eje-engrane.iam_{5CCBDBBD-41EE-1135-6256-1CB087127A0B}" version="{F8FE5B47-8CFD-36F4-320C-678A89828726}">
@@ -739,7 +739,7 @@
 <Shininess>0.14999999999999999</Shininess>
 </VisualProperties>
 </Part>
-<Part name="Engranaje recto1" uid="Engranaje recto1_{42D2A807-40A5-957E-2D76-8792B544DC97}" version="{D852719A-784E-D808-067D-4D8EA1AFC54F}">
+<Part name="Engranaje recto1" uid="Engranaje recto1_{42D2A807-40A5-957E-2D76-8792B544DC97}" version="{83B16B6C-C582-F976-48E8-766EDB76AAFE}">
 <ModelUnits mass="kilogram" length="millimeter"/>
 <PartFile name="Engranaje recto_20_Dientes.ipt" type="Inventor Part"/>
 <MassProperties>
